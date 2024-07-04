@@ -26,7 +26,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware to enable CORS with credentials
 const corsOptions = {
-    origin: ['https://resturant-admin-1.onrender.com'],
+    origin: ['https://resturant-admin-1.onrender.com', 'https://restaurant-client-fnwa.onrender.com'],
     credentials: true,               
 };
 app.use(cors(corsOptions));
